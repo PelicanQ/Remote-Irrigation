@@ -46,7 +46,6 @@ void setup() {
 
 void loop() {
   
-  // put your main code here, to run repeatedly
   WiFiClient cli = server.available();
   if(cli){
     responseHandler(cli);
